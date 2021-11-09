@@ -1,0 +1,78 @@
+
+
+body{
+    background-color: #eee!important;
+}
+.cennter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todo {
+    width: 400px;
+    /*
+    margin-left: 275px;*/
+    margin-top: 23px;
+    background-color: white;
+    border-radius: 10px;
+    /*position: fixed;*/
+}
+
+.backgroud{
+    position: relative;
+    z-index: 1;
+    
+}
+.backgroud img {
+    width: 400px;
+    height: 233px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.backgroud .fa-circle-notch {
+    font-weight: 900;
+    position: absolute;
+    z-index: 2;
+    font-size: 21px;
+    color: white;
+    top: 7%;
+    right: 5%;
+}
+.backgroud h3 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 77%;
+    left: 3%;
+}
+.auto {
+    height: 371px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    overflow-y: auto;
+
+}
+.items{
+    height: auto;
+    overflow-y: auto;
+
+}
+.inpput {
+    display: flex;
+    border-top: 1px solid #80808029;
+    padding: 9px;
+    padding-bottom: 25px;
+}
+.inpput .fa-plus-circle {
+    color: #5263d9;
+    font-size: 41px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.form-control {
+    font-size: 18px!important;
+    border: 0!important;
+}
+
